@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAI MOTION — Motion Graphics</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#07070a;color:#fff;line-height:1.5}
+a{text-decoration:none;color:inherit}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:rgba(7,7,10,.75);backdrop-filter:blur(15px);border-bottom:1px solid #202027}
+.logo{font-size:22px;font-weight:900;letter-spacing:2px}.logo span{color:#7c5cff}
+nav .links{display:flex;gap:24px;color:#bbb;font-size:14px}
+.hero{min-height:100vh;display:flex;align-items:center;padding:120px 7% 70px;background:radial-gradient(circle at 75% 30%,#24165e 0,transparent 35%),radial-gradient(circle at 20% 80%,#111d42 0,transparent 30%)}
+.hero h1{font-size:clamp(48px,9vw,100px);line-height:.95;max-width:850px}
+.hero h1 span{color:#7c5cff}.hero p{max-width:600px;color:#aaa;font-size:18px;margin:28px 0}
+.btn{display:inline-block;padding:14px 22px;border-radius:12px;background:#7c5cff;font-weight:800;margin-right:10px;box-shadow:0 10px 35px #7c5c9950}.btn.alt{background:#17171e;border:1px solid #2b2b35;box-shadow:none}
+section{padding:90px 7%}.tag{color:#7c5cff;font-weight:800;letter-spacing:2px;font-size:13px}.title{font-size:42px;margin:8px 0 35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#101015;border:1px solid #24242d;border-radius:20px;padding:28px;min-height:210px;transition:.25s}.card:hover{transform:translateY(-7px);border-color:#7c5cff}.card h3{margin:50px 0 8px;font-size:22px}.card p{color:#999}
+.showcase{height:230px;border-radius:18px;background:linear-gradient(135deg,#15151d,#34227a);display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:900}
+.contact{background:#0d0d12;border-top:1px solid #222}.contactbox{max-width:800px}.contact p{color:#aaa;margin:15px 0 25px}
+footer{padding:30px 7%;color:#777;border-top:1px solid #222;text-align:center}
+@media(max-width:700px){nav .links{display:none}.hero{min-height:90vh}.grid{grid-template-columns:1fr}.title{font-size:34px}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<nav><div class="logo">RAI<span>MOTION</span></div><div class="links"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+<div>
+<div class="tag">MOTION GRAPHICS • GAMING • EDITING</div>
+<h1>MAKE IT <span>MOVE.</span></h1>
+<p>I’m RAI — learning and creating cinematic motion graphics, gaming edits and visual content.</p>
+<a class="btn" href="#work">View My Work</a><a class="btn alt" href="#contact">Contact</a>
+</div>
+</header>
+
+<section id="work">
+<div class="tag">SELECTED WORK</div><h2 class="title">My Creative Lab</h2>
+<div class="grid">
+<div class="card"><div class="showcase">MOTION</div><h3>Motion Graphics</h3><p>Logo animations, typography and cinematic visuals.</p></div>
+<div class="card"><div class="showcase">GAMING</div><h3>Gaming Edits</h3><p>Fast, energetic edits made for gaming content.</p></div>
+<div class="card"><div class="showcase">VFX</div><h3>Visual Effects</h3><p>Effects, transitions and creative experiments.</p></div>
+</div>
+</section>
+
+<section id="about">
+<div class="tag">ABOUT</div><h2 class="title">Creator in progress.</h2>
+<p style="max-width:700px;color:#aaa;font-size:18px">RAI MOTION is a personal creative space for motion graphics, editing and gaming visuals. New projects will be added as I learn and improve.</p>
+</section>
+
+<section id="contact" class="contact">
+<div class="contactbox"><div class="tag">LET'S CONNECT</div><h2 class="title">Have a project?</h2><p>For collaborations and future editing work, connect through my social channels.</p>
+<a class="btn" href="#">YouTube</a><a class="btn alt" href="mailto:your@email.com">Email</a></div>
+</section>
+<footer>© 2026 RAI MOTION • Built for creativity.</footer>
+</body>
+</html>
